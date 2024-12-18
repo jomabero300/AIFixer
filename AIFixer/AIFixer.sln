@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIFixer.Backend", "AIFixer.Backend\AIFixer.Backend.csproj", "{701B9C90-3B56-4754-92DE-F3A63620CF66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIFixer.Frontend", "AIFixer.Frontend\AIFixer.Frontend.csproj", "{2875468D-32C8-45D5-8490-D9254E0C889C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIFixer.Shared", "AIFixer.Shared\AIFixer.Shared.csproj", "{F08292EE-D37D-4159-B351-0C7F75BD03B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIFixer.Tests", "AIFixer.Tests\AIFixer.Tests.csproj", "{BCF24C44-64E6-4033-94AF-FA4D9D9B04D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701B9C90-3B56-4754-92DE-F3A63620CF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701B9C90-3B56-4754-92DE-F3A63620CF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701B9C90-3B56-4754-92DE-F3A63620CF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701B9C90-3B56-4754-92DE-F3A63620CF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2875468D-32C8-45D5-8490-D9254E0C889C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2875468D-32C8-45D5-8490-D9254E0C889C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2875468D-32C8-45D5-8490-D9254E0C889C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2875468D-32C8-45D5-8490-D9254E0C889C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F08292EE-D37D-4159-B351-0C7F75BD03B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F08292EE-D37D-4159-B351-0C7F75BD03B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F08292EE-D37D-4159-B351-0C7F75BD03B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F08292EE-D37D-4159-B351-0C7F75BD03B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF24C44-64E6-4033-94AF-FA4D9D9B04D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF24C44-64E6-4033-94AF-FA4D9D9B04D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF24C44-64E6-4033-94AF-FA4D9D9B04D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF24C44-64E6-4033-94AF-FA4D9D9B04D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
