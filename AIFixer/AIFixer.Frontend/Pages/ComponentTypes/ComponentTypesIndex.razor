@@ -1,9 +1,9 @@
 ﻿@page "/componentTypes"
 
-<h3>@Localizer["TypesComponent"]</h3>
+<h3>@Localizer["ComponentTypes"]</h3>
 
 <div class="mb-3">
-    <a class="btn btn-primary" href="/countries/create">Nuevo @Localizer["TypeComponent"]</a>
+    <a class="btn btn-primary" href="/componentTypes/create">@Localizer["New"] @Localizer["ComponentType"]</a>
 </div>
 
 <GenericList MyList="ComponentTypes">
@@ -11,7 +11,7 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>@Localizer["TypeComponent"]</th>
+                    <th>@Localizer["ComponentType"]</th>
                     <th></th>
                 </tr>
             </thead>
@@ -23,8 +23,8 @@
                             @country.Name
                         </td>
                         <td>
-                            <a class="btn btn-warning">Editar</a>
-                            <button class="btn btn-danger">Borrar</button>
+                            <a class="btn btn-warning">@Localizer["Edit"]</a>
+                            <button class="btn btn-danger">@Localizer["Delete"]</button>
                         </td>
                     </tr>
                 }

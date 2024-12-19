@@ -79,6 +79,24 @@ namespace AIFixer.Shared.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Component Type.
+        /// </summary>
+        public static string ComponentType {
+            get {
+                return ResourceManager.GetString("ComponentType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Component Types.
+        /// </summary>
+        public static string ComponentTypes {
+            get {
+                return ResourceManager.GetString("ComponentTypes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Confirmation.
         /// </summary>
         public static string Confirmation {
@@ -255,24 +273,6 @@ namespace AIFixer.Shared.Resources {
         public static string Title {
             get {
                 return ResourceManager.GetString("Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Type of Component.
-        /// </summary>
-        public static string TypeComponent {
-            get {
-                return ResourceManager.GetString("TypeComponent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Types of Component.
-        /// </summary>
-        public static string TypesComponent {
-            get {
-                return ResourceManager.GetString("TypesComponent", resourceCulture);
             }
         }
         

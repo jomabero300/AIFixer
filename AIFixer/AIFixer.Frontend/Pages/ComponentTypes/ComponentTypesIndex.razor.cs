@@ -6,7 +6,7 @@ using Microsoft.Extensions.Localization;
 
 namespace AIFixer.Frontend.Pages.ComponentTypes;
 
-public partial class ComponentTypeIndex
+public partial class ComponentTypesIndex
 {
     [Inject] private IStringLocalizer<Literals> Localizer { get; set; } = null!;
     [Inject] private IRepository Repository { get; set; } = null!;

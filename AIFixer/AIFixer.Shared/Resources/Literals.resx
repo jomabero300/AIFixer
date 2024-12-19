@@ -106,11 +106,11 @@
   <data name="SubTitle" xml:space="preserve">
     <value>Preventive and corrective maintenance</value>
   </data>
-  <data name="TypesComponent" xml:space="preserve">
-    <value>Types of Component</value>
+  <data name="ComponentTypes" xml:space="preserve">
+    <value>Component Types</value>
   </data>
-  <data name="TypeComponent" xml:space="preserve">
-    <value>Type of Component</value>
+  <data name="ComponentType" xml:space="preserve">
+    <value>Component Type</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>Cancel</value>

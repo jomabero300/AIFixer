@@ -1,0 +1,5 @@
+﻿@page "/componentTypes/create"
+
+<h3>@Localizer["Create"] @Localizer["ComponentType"]</h3>
+
+<ComponentTypeForm @ref="componentTypeForm" ComponentType="componentType" OnValidSubmit="CreateAsync" ReturnAction="Return" />
